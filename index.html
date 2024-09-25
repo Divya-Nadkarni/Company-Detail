@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <h1 class="title">Company Directory Portal</h1>
+    <div class="form-box">
+        <h2 style="margin: 10px;">Employee Registration Form</h2>
+        <form action="">
+            <label for="fullname">Full Name:</label>
+            <input type="text" id="fullname" required>
+            <label for="Email">Email:</label>
+            <input type="email" required>
+            <label for="department">Department:</label>
+            <select name="department" id="department">
+                <option value="it">IT</option>
+                <option value="hr">HR</option>
+                <option value="finance">Finance</option>
+                <option value="marketing">Marketing</option>
+            </select>
+            <label for="id">Employee ID:</label>
+            <input type="number" id="id" required >
+            <label for="picture">Profile Picture URL:</label>
+            <input type="url" id="picture" required>
+           <button type="submit">Register Employee</button>
+        </form>
+    </div>
+    <div class="emp-list">
+        <h2>Employee List</h2>
+        <ol>
+            <li><a href="http://" target="_blank">John Doe - john@example.com</a>
+            </li>
+            <hr>
+            
+            <li><a href="http://" target="_blank">Jane Smith - jane@example.com</a>
+            </li>
+            <hr>
+            
+            
+        </ol>
+    </div>
+
+    <div class="emp-table">
+        <h2>Employee Details</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Employee ID</th>
+                    <th>Department</th>
+                    <th>Profile Picture</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        John Doe
+                    </td>
+                    <td>
+                        12345
+                    </td>
+                    <td>IT</td>
+                    <td><img src="https://i.pravatar.cc/100" alt=""></td>
+                </tr>
+                <tr>
+                    <td>Jane Smith</td>
+                    <td>67890</td>
+                    <td>HR</td>
+                    <td><img src="https://i.pravatar.cc/101" alt=""></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="location">
+        <h2>Company Location</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m19!1m8!1m3!1d951.2996518659522!2d78.3899895!3d17.4980302!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x3bcb91f3fdf6bde9%3A0x752db86a6ab3be2a!2sInnomatics%20Research%20Labs%20205%2C%20Fortune%20Signature%20beside%20Metro%20Station%20Jntu%20College%2C%20Sardar%20Patel%20Nagar%2C%20IDPL%20Staff%20Cooperative%20Housing%20Society%2C%20Kukatpally%20Housing%20Board%20Colony%2C%20Kukatpally%20Hyderabad%2C%20Telangana%20500085!3m2!1d17.4980302!2d78.3899895!5e0!3m2!1sen!2sin!4v1727278014069!5m2!1sen!2sin" width="1050" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    </div></body>
+</html>
